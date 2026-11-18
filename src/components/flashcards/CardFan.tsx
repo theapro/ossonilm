@@ -10,14 +10,14 @@ type FanStyle = CSSProperties & {
 
 const placements = [
   {
-    className: "bottom-0 left-0 z-10 w-[70%] sm:w-[62%]",
+    className: "bottom-2 left-2 z-10 w-[66%] sm:w-[58%]",
     tilt: "-6deg",
     hover: "-6deg",
     delay: "40ms",
     front: false,
   },
   {
-    className: "top-0 right-0 z-10 w-[64%] sm:w-[56%]",
+    className: "top-2 right-3 z-10 w-[58%] sm:w-[52%]",
     tilt: "7deg",
     hover: "7deg",
     delay: "140ms",

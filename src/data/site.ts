@@ -12,6 +12,7 @@ export const site = {
 export const navLinks = [
   { to: "/", label: "Bosh sahifa", end: true },
   { to: "/products", label: "Mahsulotlar", end: false },
+  { to: "/tests", label: "Testlar", end: false },
   { to: "/about", label: "Biz haqimizda", end: true },
 ] as const
 

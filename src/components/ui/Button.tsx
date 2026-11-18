@@ -26,6 +26,8 @@ type Props = {
   to?: string
   href?: string
   external?: boolean
+  onClick?: () => void
+  disabled?: boolean
 }
 
 export function Button({
@@ -36,8 +38,10 @@ export function Button({
   to,
   href,
   external,
+  onClick,
+  disabled,
 }: Props) {
-  const classes = cn(base, variants[variant], sizes[size], className)
+  const classes = cn(base, variants[variant], sizes[size], disabled && "pointer-events-none opacity-40", className)
 
   if (to) {
     return (
@@ -61,7 +65,7 @@ export function Button({
   }
 
   return (
-    <button type="button" className={classes}>
+    <button type="button" className={classes} onClick={onClick} disabled={disabled}>
       {children}
     </button>
   )

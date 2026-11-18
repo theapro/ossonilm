@@ -6,7 +6,7 @@ import { CardFan } from "../flashcards/CardFan"
 
 export function Hero() {
   return (
-    <section className="pt-12 pb-16 sm:pt-16 sm:pb-20 lg:pt-20 lg:pb-28">
+    <section className="overflow-x-clip pt-10 pb-16 sm:pt-14 sm:pb-20 lg:pt-16 lg:pb-24">
       <Container>
         <div className="grid items-center gap-14 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-8">
           <div className="max-w-xl">
@@ -25,12 +25,12 @@ export function Hero() {
               {hero.text}
             </p>
             <div className="mt-8 flex flex-col items-start gap-3 sm:flex-row sm:items-center">
-              <Button to="/products">
-                {cta.viewProducts}
+              <Button to="/tests">
+                {cta.test}
                 <ArrowRight className="size-4" aria-hidden="true" />
               </Button>
-              <Button to="/about" variant="secondary">
-                {cta.about}
+              <Button to="/products" variant="secondary">
+                {cta.viewProducts}
               </Button>
             </div>
           </div>

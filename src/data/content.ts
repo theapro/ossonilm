@@ -1,13 +1,13 @@
 export const hero = {
-  label: "OSSONILM · O’RGANISHNI OSONLASHTIRAMIZ",
-  titleLead: "Bilim olishni",
-  titleRest: "oddiyroq qiling.",
-  text: "Til o’rganish va rivojlanish uchun qulay, amaliy va sifatli o’quv materiallari.",
+  label: "OSSONILM · YAPON TILI",
+  titleLead: "Yapon yozuvini",
+  titleRest: "oson yodlang.",
+  text: "Hiragana, katakana va N5 kanji. O’qilish, misol so’z va o’zbekcha ma’no — bitta kartada.",
 }
 
 export const productsIntro = {
-  title: "Mahsulotlar",
-  subtitle: "O’rganish uchun yaratilgan oddiy va amaliy vositalar.",
+  title: "To’plamlar",
+  subtitle: "Hiragana va katakana kartalari. N5 kanjilarini esa hozir testda sinab ko’rishingiz mumkin.",
 }
 
 export const about = {
@@ -19,41 +19,23 @@ export const about = {
 export const reasons = [
   {
     index: "01",
-    title: "Oddiy",
-    text: "Murakkab ma’lumotlarni sodda formatda taqdim etamiz.",
+    title: "O’zbekcha",
+    text: "Har bir belgining ma’nosi va misollari o’zbek tilida yozilgan.",
   },
   {
     index: "02",
-    title: "Amaliy",
-    text: "Mahsulotlar real o’rganish jarayonida foydalanish uchun yaratiladi.",
+    title: "O’qilish",
+    text: "Kun’yomi va on’yomi kartaning orqa tomonida, alohida.",
   },
   {
     index: "03",
-    title: "Sifatli",
-    text: "Material, bosma sifati va dizaynga e’tibor beramiz.",
+    title: "Misol",
+    text: "Har bir kanjiga oltita so’z va shu belgi ishtirokidagi qisqa gap.",
   },
   {
     index: "04",
-    title: "Mahalliy",
-    text: "O’zbek tilida o’rganish uchun moslashtirilgan mahsulotlar.",
-  },
-] as const
-
-export const steps = [
-  {
-    index: "01",
-    title: "Tanlang",
-    text: "O’zingizga kerakli o’quv materialini tanlang.",
-  },
-  {
-    index: "02",
-    title: "O’rganing",
-    text: "Kartalardan qulay tarzda foydalaning.",
-  },
-  {
-    index: "03",
-    title: "Takrorlang",
-    text: "Muntazam takrorlash orqali bilimni mustahkamlang.",
+    title: "Test",
+    text: "Hiragana, katakana va N5 kanji bo’yicha alohida testlar.",
   },
 ] as const
 
@@ -63,6 +45,7 @@ export const cta = {
   details: "Batafsil",
   order: "Buyurtma berish",
   telegram: "Telegram orqali bog’laning.",
+  test: "Testni boshlash",
 }
 
 export const seo = {
@@ -80,6 +63,15 @@ export const seo = {
     title: "Biz haqimizda — OSSONILM",
     description:
       "OSSONILM — o’rganishni osonlashtirish uchun yaratilgan ta’lim brendi. AdlWisdom loyihasi.",
+  },
+  test: {
+    title: "N5 kanji testi — OSSONILM",
+    description:
+      "JLPT N5 dagi 100 ta kanji bo’yicha test: ma’no, belgi va o’qilish. Har davrada 10 ta savol.",
+  },
+  tests: {
+    title: "Testlar — OSSONILM",
+    description: "Hiragana, katakana va N5 kanji testlari. Har birida 10 ta savol.",
   },
   notFound: {
     title: "Sahifa topilmadi — OSSONILM",

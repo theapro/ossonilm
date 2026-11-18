@@ -1,10 +1,12 @@
-import { Route, Routes } from "react-router-dom"
+import { Navigate, Route, Routes } from "react-router-dom"
 import { Layout } from "./components/layout/Layout"
 import { About } from "./pages/About"
 import { Home } from "./pages/Home"
 import { NotFound } from "./pages/NotFound"
 import { ProductDetail } from "./pages/ProductDetail"
 import { Products } from "./pages/Products"
+import { Test } from "./pages/Test"
+import { Tests } from "./pages/Tests"
 
 export default function App() {
   return (
@@ -14,6 +16,9 @@ export default function App() {
         <Route path="products" element={<Products />} />
         <Route path="products/:slug" element={<ProductDetail />} />
         <Route path="about" element={<About />} />
+        <Route path="tests" element={<Tests />} />
+        <Route path="tests/:deck" element={<Test />} />
+        <Route path="test" element={<Navigate to="/tests" replace />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

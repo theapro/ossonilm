@@ -1,10 +1,10 @@
-import { Feather, Layers, MapPin, PenLine } from "lucide-react"
+import { BookOpen, CircleCheck, Languages, ListChecks } from "lucide-react"
 import { reasons } from "../../data/content"
 import { Container } from "../ui/Container"
 import { Reveal } from "../ui/Reveal"
 import { Rule } from "../ui/Rule"
 
-const icons = [Feather, PenLine, Layers, MapPin]
+const icons = [Languages, BookOpen, ListChecks, CircleCheck]
 
 export function WhySection() {
   return (
