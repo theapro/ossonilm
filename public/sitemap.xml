@@ -15,4 +15,16 @@
   <url>
     <loc>https://www.ossonilm.uz/about</loc>
   </url>
+  <url>
+    <loc>https://www.ossonilm.uz/tests</loc>
+  </url>
+  <url>
+    <loc>https://www.ossonilm.uz/tests/hiragana</loc>
+  </url>
+  <url>
+    <loc>https://www.ossonilm.uz/tests/katakana</loc>
+  </url>
+  <url>
+    <loc>https://www.ossonilm.uz/tests/n5</loc>
+  </url>
 </urlset>
